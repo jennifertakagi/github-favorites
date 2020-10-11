@@ -1,0 +1,53 @@
+.repository-card {
+  list-style: none;
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px var(--primary-color) solid;
+  border-radius: 10px;
+}
+
+.repository-card .title {
+  font-weight: 900;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.repository-card .title p {
+  color: var(--secondary-color);
+  width: 100%;
+}
+
+.repository-card .title div {
+  text-align: right;
+}
+
+.repository-card .title img {
+  width: 20%;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.check-repo-box {
+  margin: 1rem 0;
+  text-align: right;
+}
+
+.go-repo-button {
+  background: var(--secondary-color);
+  color: #fff;
+  border: 0;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .not-found-text {
+    font-size: 2rem;
+  }
+}
