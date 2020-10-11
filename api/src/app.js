@@ -14,12 +14,22 @@ app.get('/starred/:user', (request, response) => {
   axios.get(`https://api.github.com/users/${user}/starred`)
     .then(res => {
       const { data = [] } = res;
-      repositories.push(...sanitizeRepositories(data));
+      const sanitizedRepositories = sanitizeRepositories(data);
 
+      if (!repositories.length) {
+        repositories.push(...sanitizedRepositories);
+
+        return response.json({
+          status: 'ok',
+          size: repositories.length,
+          repositories
+        });
+      }
+      
       return response.json({
         status: 'ok',
-        size: repositories.length,
-        repositories
+        size: sanitizedRepositories.length,
+        repositories: sanitizedRepositories
       });
     })
     .catch(error => {
