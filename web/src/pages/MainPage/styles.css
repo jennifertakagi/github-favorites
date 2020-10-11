@@ -1,0 +1,20 @@
+
+#main-page h1 {
+  margin: 2rem 0;
+  font-size: 3.8rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+#main-page ul {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+}
+
+@media (min-width: 768px) {
+  #main-page ul {
+    width: 65%;
+    margin: 0 auto;
+  }
+}
