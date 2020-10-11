@@ -7,7 +7,7 @@ function App() {
   const [repositories, setRepositories] = useState([]);
 
   useEffect(() => {
-    api.get('/repositories')
+    api.get('/jennifertakagi/starred')
       .then(response => {
         const { data = [] } = response;
         setRepositories(data);
