@@ -36,7 +36,7 @@
 This project has a UI Documentation of reusable components, allowing to test them individually.
 
 <p align="left">
-   <img src="docs/github-favorites.png"  width="600" />
+   <img src="docs/go-github.png"  width="600" />
 </p>
 
 # :construction_worker: Installation
@@ -53,17 +53,17 @@ SSH URLs provide access to a Git repository via SSH, a secure protocol. If you h
 
 You need to install the dependences in api, web and mobile folder, so **run the above command on root and in each of this folders**:
 
-```yarn```
+```npm install```
 
 # :runner: Getting Started
 
 Run the following command in **api and web** folder start the application in a development environment:
 
-```yarn start```
+```npm start```
 
 On the **mobile** folder start the application in a development environment:
 
-```yarn start && yarn android | yarn ios```
+```npm start && npm android | npm ios```
 
 # :postbox: Faq
 
