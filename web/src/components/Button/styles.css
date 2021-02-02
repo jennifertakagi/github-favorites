@@ -1,0 +1,20 @@
+button {
+  color: #fff;
+  background: var(--secondary-color);
+  width: 55%;
+  height: 45px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+button:focus {
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  button {
+    margin: 0 10px 0;
+    width: 15%;
+    cursor: pointer;
+  }
+}
