@@ -1,0 +1,19 @@
+input {
+  width: 92%;
+  height: 40px;
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  padding-left: 10px;
+}
+
+input:focus {
+  border-color: var(--secondary-color);
+  outline: none;
+}
+
+
+@media (min-width: 768px) {
+  input{
+    width: 35%;
+  }
+}
