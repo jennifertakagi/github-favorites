@@ -12,9 +12,35 @@
   font-size: 1.4rem;
 }
 
+#main-page .search-area {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+#main-page .error-message {
+  font-size: 1rem;
+  color: #990000;
+  margin-top: 10px;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   #main-page ul {
     width: 65%;
     margin: 0 auto;
+  }
+
+  #main-page .search-area {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+
+  #main-page .error-message {
+    font-size: 1.3rem;
   }
 }
