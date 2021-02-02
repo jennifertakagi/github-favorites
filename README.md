@@ -4,7 +4,7 @@
 
 # GitHub Favorites
 
-> Discover my favorites respositories from GitHub:)
+> Discover user's favorites repositories from GitHub:)
 
 [![Author](https://img.shields.io/badge/author-jennifertakagi-ff9000?style=flat-square)](https://github.com/jennifertakagi)
 [![Languages](https://img.shields.io/github/languages/count/jennifertakagi/github-favorites?color=%23ff9000&style=flat-square)](#)
@@ -29,8 +29,8 @@
 
 # :rocket: Features
 
-* Select all ingredients that are on you bar
-* Discover which drinks you can make *-*
+* Input the user you are curious about
+* Discover his favorites repositories from GitHub
 
 # :framed_picture: UI Documentation
 This project has a UI Documentation of reusable components, allowing to test them individually.
@@ -41,7 +41,7 @@ This project has a UI Documentation of reusable components, allowing to test the
 
 # :construction_worker: Installation
 
-**You need to install [NPM](https://www.npmjs.com/) and [Live Server](https://www.npmjs.com/package/live-server) first, then in order to clone the project via HTTPS, run this command:**
+**You need to install [NPM](https://www.npmjs.com/) and [Node](https://nodejs.org/en/) first, then in order to clone the project via HTTPS, run this command:**
 
 ```git clone https://github.com/jennifertakagi/github-favorites.git```
 
@@ -49,21 +49,9 @@ SSH URLs provide access to a Git repository via SSH, a secure protocol. If you h
 
 ```git clone git@github.com:jennifertakagi/github-favorites.git```
 
-**Install dependencies**
-
-You need to install the dependences in api, web and mobile folder, so **run the above command on root and in each of this folders**:
-
-```npm install```
-
 # :runner: Getting Started
 
-Run the following command in **api and web** folder start the application in a development environment:
-
-```npm start```
-
-On the **mobile** folder start the application in a development environment:
-
-```npm start && npm android | npm ios```
+Go to  **api, mobile and web** folders and check the README to start each project.
 
 # :postbox: Faq
 
