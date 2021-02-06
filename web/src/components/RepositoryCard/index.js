@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import "./styles.css";
-import starIcon from "../../assets/icons/star.svg";
+import './styles.css';
+import starIcon from '../../assets/icons/star.svg';
 
 function RepositoryCard({ repository }) {
   return (
@@ -12,9 +12,9 @@ function RepositoryCard({ repository }) {
       <div className="title">
         <p>{repository.name}</p>
         <div>
-          <img src={starIcon} alt=""/>
+          <img src={starIcon} alt="" />
           <span>{repository.likes}</span>
-        </div> 
+        </div>
       </div>
       <p>Owner: {repository.owner}</p>
       <p>{repository.description}</p>

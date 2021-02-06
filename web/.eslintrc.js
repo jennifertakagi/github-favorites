@@ -324,7 +324,7 @@ module.exports = {
         
         // allow just one var statement per function
         // https://eslint.org/docs/rules/one-var#enforce-variables-to-be-declared-either-together-or-separately-in-functions-one-var
-        "one-var": ["error", "always"],
+        "one-var": ["error", "never"],
 
         // require padding inside curly braces
         //https://eslint.org/docs/rules/object-curly-spacing#enforce-consistent-spacing-inside-braces-object-curly-spacing

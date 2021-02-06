@@ -1,10 +1,17 @@
-import React from "react";
+import React from 'react';
 
-import "./styles.css";
+import './styles.css';
 
 function Input({ id, name, placeholder, onChange, type, value }) {
   return (
-    <input id={id} name={name} placeholder={placeholder} onChange={onChange} type={ type } value={value} />
+    <input
+      id={id}
+      name={name}
+      placeholder={placeholder}
+      onChange={onChange}
+      type={type}
+      value={value}
+    />
   );
 }
 
