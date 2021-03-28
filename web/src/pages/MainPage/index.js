@@ -59,7 +59,12 @@ function MainPage() {
 
       {repositories && (
         <ul id="repository-list">
-          {repositories.map((repository) => <RepositoryCard repository={repository} />)}
+          {repositories.map((repository) => (
+            <RepositoryCard
+              repository={repository}
+              key={repository.id}
+            />)
+          )}
         </ul>
       )}
     </div>
