@@ -8,6 +8,7 @@ import './styles.css';
 import api from '../../services/api';
 
 function MainPage() {
+  const name = 'Jennifer';
   const [user, setUser] = useState('');
   const [repositories, setRepositories] = useState([]);
   const [showLoading, setShowLoading] = useState(false);
